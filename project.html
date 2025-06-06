@@ -157,3 +157,82 @@ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     form textarea {
       width: 100%;
       padding: 12px 15px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pruthviraj M - Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #333; color: white; padding: 20px 0; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    section { padding: 40px; background: white; margin: 20px auto; width: 80%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1, h2 { color: #333; }
+    .project { margin: 15px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+    footer { background: #222; color: white; text-align: center; padding: 15px 0; }
+    .btn { background: #007BFF; color: white; padding: 8px 16px; text-decoration: none; border-radius: 5px; }
+    .btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pruthviraj M</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Hello! I'm Pruthviraj, a passionate web developer eager to create beautiful and functional websites.</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a web development enthusiast learning HTML, CSS, and JavaScript. I enjoy building responsive and interactive websites.</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>A personal portfolio to showcase my work, built with HTML and CSS.</p>
+  </div>
+  <div class="project">
+    <h3>To-Do App</h3>
+    <p>A simple to-do list web app using JavaScript for task management.</p>
+  </div>
+  <div class="project">
+    <h3>Weather App</h3>
+    <p>Fetches weather data from an API and displays it beautifully on screen.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+    <button type="submit" class="btn">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Pruthviraj M | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
